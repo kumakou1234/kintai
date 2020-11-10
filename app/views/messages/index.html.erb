@@ -1,0 +1,19 @@
+<div class="top">
+
+<% if user_signed_in? %>
+    <%= render 'kojin' %>
+<% else %>
+     <div class="side-ber">
+    <%= render "side_bar" %>
+  </div>
+
+
+ <div class="main-ber">
+   <%= render "main_ber"%>
+  </div>
+
+ <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
+</div>
+<% end %>
+  
+</div>

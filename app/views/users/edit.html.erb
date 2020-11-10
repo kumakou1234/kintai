@@ -1,0 +1,23 @@
+<h2>アカウント編集</h2>
+
+<%= form_with model: current_user, local: true do |f| %>
+   <div class="field">
+    <%= f.label :user %><br />
+    <%= f.text_field :user %>
+  </div>
+
+
+<div>
+<%names = ["Pirori","Okachan","Ida"]%>
+
+
+
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>    
+    <div class="actions">
+    <%= f.submit "編集" %>
+  </div>
+<% end %>

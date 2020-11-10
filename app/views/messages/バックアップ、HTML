@@ -1,0 +1,96 @@
+<div class="top">
+
+  <div class="side-ber">
+    <div class="side-ber-header">
+  <div class="kojin-header">  
+     <div class="current-user ">
+      <%# ・カレントユーザー名 %>
+      <%= link_to current_user.user, edit_user_path(current_user) %>
+     </div>
+     <div class="logout">
+      <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
+     </div>
+  </div>
+</div>
+<div class="user-header-center">
+   <div class="months">
+     
+      <div class="month">
+       <% bb = [1,2,3,4,5,6,7,8,9,10,11,12]%>
+        <% bb.each do |item| %>
+        <a href="#">
+         <%=" #{item}月"%>
+        </a>
+       <% end %>
+
+      </div>
+  
+      
+          
+   </div>
+</div>
+<div class="side-be-under">
+</div>
+
+  </div>
+
+
+ <div class="main-ber">
+  <div clas="main-ber-header">
+  <div class="title">
+    <h1 class="midasi">¥ 時給計算 ¥</h1>
+    </div>
+
+</div>
+
+<div class="main-ber-cnter">
+   <div class="tourokus">
+     <div class="main-syou">
+       <div class="days">
+        <div class="tuki">
+        10月
+        </div>
+        <div class="his">
+        <div class="hi1">
+        1 2 3 4 5 6 7
+        </div>
+        <div class="hi2">
+        8 9 10 11 12 13 14
+        </div>
+        <div class="hi3">
+        15 16 17 18 19 20 21
+        </div>
+        <div class="hi4">
+        22 23 24 25 26 27 28
+        </div>
+        <div class="hi5">
+        29 30 31
+        </div>
+        </div>
+       </div>
+     </div>
+
+      <div class="syukei">
+       <div class="hourly-wage">
+       時給 1050円
+       </div>
+
+       <div class="time">
+      累計勤怠時間 34時間
+       </div>
+
+       <div class="money">
+       今月のお給料  円
+       </div>    
+      </div>
+   
+    </div>
+</div>
+
+<div class="main-ber-under">
+</div>
+
+
+
+ 
+</div>

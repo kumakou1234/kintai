@@ -1,0 +1,16 @@
+<div class="contents row">
+  <div class="container">
+    <h3>本日の勤怠時間を入力して下さい</h3>
+    <%= form_with(model: @user11, local: true) do |form| %>
+      <%= form.date_select :day,{discard_year: true, use_month_numbers: true,  },  placeholder: "働いた日" %>
+      <%= form.number_field :time, step: '0.25', placeholder: "働いた時間" %> 
+      <%= form.text_field :hourlywage, placeholder: "時給"%>
+      <%= form.submit "SEND" %>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+

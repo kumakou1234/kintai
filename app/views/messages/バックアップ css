@@ -1,0 +1,160 @@
+.top {
+  display: flex;
+}
+
+
+.side-ber {
+  width: 300px;
+  /* background-color:orange; */
+  height: 100vh;
+  
+}
+
+.side-ber-header {
+  background-color: #eee8aa;
+  height: 100px;
+  padding: 50px 30px 0 5px;
+
+}
+
+.user-name {
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+ width: 130px;
+  
+  
+}
+
+.user1  {
+  padding: 10px 0 10px 10px;
+}
+.user1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.user2 {
+  padding: 10px 0 10px 10px;
+  text-decoration: none;
+}
+.user2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.user-header-center {
+  height: calc(100vh - 100px - 100px);
+  background-color: #fff8dc;
+  padding: 0 20px;
+  overflow-x:scroll;
+}
+
+
+.side-be-under {
+  height: 100px;
+  background-color:#f5f5dc;
+  padding: 0 20px;
+}
+
+.main-ber {
+  width: calc(100vw - 300px);
+  height: 100vh;
+}
+
+
+.main-ber-header {
+  height: 100px;
+  
+}
+.midasi {
+  font-size: 45px;
+  padding: 30px 0 0 90px;
+  color: black;
+  border-bottom: 3px solid red;
+  background-color: #fffff0;
+}
+
+.main-ber-cnter{
+  height: calc(100vh - 100px );
+  background-color: #fffafa;
+}
+.login {
+  padding: 40px 0 0 80px;
+}
+.login a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+.sinki{
+  padding: 10px 20px 20px 80px;
+}
+.sinki a{
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+}
+.main-ber-under {
+  height: 100px;
+  background-color:#fffff0;
+}
+
+.kojin-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-user {
+  font-size: 16px;
+
+}
+.logout {
+  font-size: 13px;
+  text-decoration: none
+}
+
+.months {
+  align-items: center;
+  font-size: 50px;
+  /* border: 1px solid black; */
+ width: 55px;
+ 
+  
+}
+
+.month  {
+  padding: 10px 0 10px 10px;
+}
+.month a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+
+.tuki {
+  font-size:60px;
+}
+.days {
+  display: flex;
+  justify-content: space-around;
+}
+
+.syukei {
+  margin: 50px 0 0 140px;
+  font-size: 40px;
+}
+
+.hourly-wage {
+  margin: 0 0 20px 0;
+} 
+.time {
+  margin: 0 0 20px 0;
+} 
+}
